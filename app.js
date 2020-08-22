@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const grid = document.querySelector
+    let width = 10
+    let squares = []
 
     //Create Board
     function createBoard() {
